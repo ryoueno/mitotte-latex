@@ -60,7 +60,7 @@
 \chapter*{論文要旨}
 %\thispagestyle{empty}
 \addcontentsline{toc}{chapter}{論文要旨}
-\input{abstract}
+\input{components/abstract}
 \pagestyle{plain}
 \pagenumbering{roman}
 % abstract.texの中は \chapterなど書かずに単なるテキストを入力する
@@ -69,7 +69,7 @@
 \chapter*{謝辞}
 %\thispagestyle{empty}
 \addcontentsline{toc}{chapter}{謝辞}
-\input{thanks}
+\input{components/thanks}
 % thanks.texの中は \chapterなど書かずに単なるテキストを入力する
 
 %%% 目次
@@ -88,7 +88,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% 本文ここから chap1 chap2 chap3 同様に必要なだけ章を入れる
-\include{chap1} % 1章
+\include{chapters/chap1} % 1章
 
 %%% 付録 -- 必要なければ以下を2行コメントアウト
 \appendix
