@@ -1,3 +1,24 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Adachi2010}
+安達房子.
+\newblock テレワークの現状と課題 -在宅勤務および在宅ワークの考察-.
+\newblock October 2010.
+
+\bibitem{Telework2010}
+総務省~情報通信国際戦略局情報通信経済室.
+\newblock テレワークの動向と生産性に関する調査研究.
+\newblock March 2010.
+
+\bibitem{Hari2006}
+張少飛, 小林浩.
+\newblock オンラインテストにおける不正行為の防止策.
+\newblock 2006.
+
+\bibitem{Toba2010}
+鳥羽美奈子, 森靖英.
+\newblock Pc操作ログと映像ログを用いた業務行動モニタリングシステムの初期検討.
+\newblock May 2010.
+\newblock IPSJ SIG Technical Report.
 
 \end{thebibliography}
