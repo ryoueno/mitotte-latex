@@ -41,18 +41,63 @@
 その後サーバ上で，それらの画像を解析することにより，ユーザが利用しているサービスの検出を行う．
 画像の解析は，Google社のサービスである， Google Cloud Vision API （以下，Vision API）を利用する．
 
-ユーザの画面キャプチャ画像を Vision API に通すことにより，その画像内に含まれるモノ，テキスト情報，サービスのロゴ画像等が検出される．
+ユーザの画面キャプチャ画像を Vision API に通すことにより，その画像内に含まれるモノ，テキスト情報，サービスのロゴ画像等を検出する．
 それらの情報を元に，ユーザが作業に不要なサービスを利用していないかの判別を行う．
 
+\clearpage
+
+キャプチャ画像から，Vision APIを通して情報を取得した例を示す．
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=14.0cm]{graphics/screenshot01.png}
+  \caption{キャプチャ画像1}
+  \label{fig:screenshot01}
+  \end{center}
+\end{figure}
+
+キャプチャ画像１（図\ref{fig:screenshot01}）では，以下のような情報が検出される．
+ユーザがWebサイトを閲覧していることが分かる．
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=14.0cm]{graphics/response01.png}
+  \caption{検出された情報1}
+  \label{fig:response01}
+  \end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=14.0cm]{graphics/screenshot02.png}
+  \caption{キャプチャ画像2}
+  \label{fig:screenshot02}
+  \end{center}
+\end{figure}
+
+キャプチャ画像２（図\ref{fig:screenshot02}）では，以下のような情報が検出される．
+ユーザがPC上のアプリケーションでプログラムのソースコードを表示していることを検出していることが分かる．
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=14.0cm]{graphics/response02.png}
+  \caption{検出された情報2}
+  \label{fig:response02}
+  \end{center}
+\end{figure}
+
+Vision APIから取得したこれらの情報を用いて，サービスの検出を行う．
 
 \subsection{通知}
 アプリケーションからユーザ及び監督者へ通知には，外部のチャットサービスを利用する．
 まず，設定された作業予定時に，ユーザに対して通知が送信される．
 ユーザは，チャットサービスから受け取る通知により，作業時間であることを認識できる．
 通知後，アプリケーション上で動作が確認できなかった場合，30分毎に通知を繰り返す．
-そうすることで，継続的にユーザに対して作業を開始することを促すことができる．
+それによって，継続的にユーザに対して作業を開始することを促すことができる．
 
-また，1日に1回，決まった時刻に，前日の作業記録を監督者に通知する．
+また，1日に1回決まった時刻に，前日の作業記録を監督者に通知する．
 監督者は前日の作業記録を確認することにより，ユーザが作業を行った時間や，作業状況を把握できる．
 
 \clearpage
