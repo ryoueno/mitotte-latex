@@ -15,14 +15,38 @@
 
 \begin{figure}[h]
   \begin{center}
-  \includegraphics[width=9.0cm]{graphics/structure_chart.png}
+  \includegraphics[width=12.0cm]{graphics/structure_chart.png}
   \caption{システム構成図}
   \label{fig:structure_chart}
   \end{center}
 \end{figure}
 
+\clearpage
+
 \section{予定の管理機能}
-ユーザは，システム利用開始時に，作業予定の設定を行う．設定内容は，作業内容と作業の予定日時で構成される．
+ユーザは，システム利用開始時に，作業予定の設定を行う．
+設定内容は，作業内容と作業の予定日時で構成される．
+設定画面の一部を以下に示す
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=12.0cm]{graphics/mitotte01.png}
+  \caption{予定設定画面}
+  \end{center}
+\end{figure}
+
+\clearpage
+
+設定された作業予定やその作業のステータス（進行中，完了している，など）は
+以下のように一覧で確認できる．
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=12.0cm]{graphics/mitotte02.png}
+  \caption{作業一覧画面}
+  \end{center}
+\end{figure}
+
 設定された作業予定は，ユーザへの通知や，監督者へ状況を報告する際に利用される．
 また，作業全体の進捗状況は，設定された予定が基準になっている．
 ユーザはアプリケーション内でいつでも予定を変更可能であるが，予定を変更した履歴も監督者に通知される．
@@ -97,8 +121,22 @@ Vision APIから取得したこれらの情報を用いて，サービスの検�
 通知後，アプリケーション上で動作が確認できなかった場合，30分毎に通知を繰り返す．
 それによって，継続的にユーザに対して作業を開始することを促すことができる．
 
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=14.0cm]{graphics/notification01.png}
+  \caption{ユーザへの通知}
+  \end{center}
+\end{figure}
+
 また，1日に1回決まった時刻に，前日の作業記録を監督者に通知する．
 監督者は前日の作業記録を確認することにより，ユーザが作業を行った時間や，作業状況を把握できる．
+
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=14.0cm]{graphics/notification02.png}
+  \caption{監督者への通知}
+  \end{center}
+\end{figure}
 
 \clearpage
 
