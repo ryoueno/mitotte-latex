@@ -15,4 +15,9 @@
 \newblock テレワークの動向と生産性に関する調査研究.
 \newblock March 2010.
 
+\bibitem{visionAPI}
+Google Inc.
+\newblock Google cloud vision api の概要.
+\newblock https://cloud.google.com/vision/.
+
 \end{thebibliography}
