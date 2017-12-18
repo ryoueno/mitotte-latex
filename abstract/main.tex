@@ -1,0 +1,60 @@
+\documentclass[a4paper,10pt,twocolumn]{jsarticle}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{subfigure}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{ascmac}
+\usepackage{fancyvrb}
+\usepackage{makeidx}
+\usepackage{comment}
+\usepackage{lineno}
+%%%%%%%%%
+
+\usepackage{myjlababs}
+\makeindex
+\daigaku{青山学院大学}
+\gakubu{社会情報学部}
+%\gakka{社会情報学科}
+\syubetsu{卒業研究}
+%\labname{宮治研究室}
+\chiefexaminer{宮治 裕 准教授}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ここから先「ここまで個人設定」の範囲に
+% 各自の固有の情報を記入して下さい
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nendo{2017年度}
+\snum{18114035} %学生番号
+\jname{上野 涼} %氏名
+\thesistitle{PCワークの進捗監視システム} %タイトルを記入
+%\thesissubtitle{\LaTeX の利用} %サブタイトルを記入 ない場合はコメントアウト
+\SUBTfalse
+%%%%%%%%ここまで個人設定%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%\linenumbers
+\linesparpage{48} %行数指定
+%\mojiparline{35} %文字数指定
+\maketitle
+\thispagestyle{pg}
+\pagestyle{pg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ここから先「ここまで本文」の範囲に
+% 各自の適切な抄録ファイルを読み込んでください
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/section1}
+\input{sections/section2}
+\input{sections/section3}
+\input{sections/section4}
+\input{sections/section5}
+%%%%%%%%ここまで本文%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{junsrt}
+\bibliography{components/refs.bib}
+%
+\end{document}
