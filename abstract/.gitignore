@@ -1,0 +1,8 @@
+.DS_Store
+*.xbb
+*.dvi
+*.log
+*.pdf
+*.aux
+*.blg
+*.toc
