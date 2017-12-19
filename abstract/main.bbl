@@ -3,21 +3,17 @@
 \bibitem{tele2017}
 国土交通省 都市局~都市政策課都市環境政策室.
 \newblock 平成27年度 テレワーク人口実態調査 - 調査結果の概要 -.
-\newblock March 2017.
+\newblock http://www.mlit.go.jp/common/001124888.pdf, March 2017.
 
 \bibitem{Adachi2010}
 安達房子.
 \newblock テレワークの現状と課題 - 在宅勤務および在宅ワークの考察 -.
-\newblock October 2010.
-
-\bibitem{Telework2010}
-総務省~情報通信国際戦略局情報通信経済室.
-\newblock テレワークの動向と生産性に関する調査研究.
-\newblock March 2010.
+\newblock 京都学陣 大学経営学部論集 第20巻 49-70頁, October 2010.
 
 \bibitem{visionAPI}
-Google Inc.
-\newblock Google cloud vision api の概要.
+Googe Inc.
+\newblock {Vision API} - 画像コンテンツ分析 {Google Cloud Platform}, December
+  2017.
 \newblock https://cloud.google.com/vision/.
 
 \end{thebibliography}

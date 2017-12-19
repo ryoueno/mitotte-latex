@@ -3,31 +3,35 @@
 \bibitem{tele2017}
 国土交通省 都市局~都市政策課都市環境政策室.
 \newblock 平成27年度 テレワーク人口実態調査 - 調査結果の概要 -.
-\newblock March 2017.
+\newblock http://www.mlit.go.jp/common/001124888.pdf, March 2017.
 
 \bibitem{Adachi2010}
 安達房子.
 \newblock テレワークの現状と課題 - 在宅勤務および在宅ワークの考察 -.
-\newblock October 2010.
+\newblock 京都学陣 大学経営学部論集 第20巻 49-70頁, October 2010.
 
 \bibitem{Telework2010}
 総務省~情報通信国際戦略局情報通信経済室.
 \newblock テレワークの動向と生産性に関する調査研究.
-\newblock March 2010.
+\newblock http://www.soumu.go.jp/johotsusintokei/linkdata/h22\_06\_houkoku.pdf,
+  March 2010.
 
 \bibitem{Hari2006}
 張少飛, 小林浩.
 \newblock オンラインテストにおける不正行為の防止策.
 \newblock 2006.
+\newblock 情報処理学会研究報告. 55-59.
 
 \bibitem{Toba2010}
 鳥羽美奈子, 森靖英.
 \newblock {PC}操作ログと映像ログを用いた業務行動モニタリングシステムの初期検討.
-\newblock May 2010.
-\newblock IPSJ SIG Technical Report.
+\newblock 第Vol.2010-CVIM-172 No.1巻, May 2010.
+\newblock 情報処理学会研究報告. IPSJ SIG Technical Report.
 
 \bibitem{visionAPI}
-{Cloud Vision API} 概要.
+Googe Inc.
+\newblock {Vision API} - 画像コンテンツ分析 {Google Cloud Platform}, December
+  2017.
 \newblock https://cloud.google.com/vision/.
 
 \end{thebibliography}
